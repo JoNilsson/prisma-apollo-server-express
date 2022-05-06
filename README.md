@@ -16,12 +16,11 @@ Boilerplate Web Application project for setting up [Prisma](https://www.prisma.i
 git clone https://github.com/JoNilsson/prisma-apollo-server-express.git
 ```
 
-
 2. Install dependencies
 
 ```
 cd prisma-apollo-server-express
-npm install
+yarn
 ```
 
 3. Set up your database
@@ -31,13 +30,13 @@ Copy `.env.example` to `.env` and fill in your Prisma and database credentials
 4. Run Prisma to generate the Prisma client
 
 ```
-npm run prisma:generate
+yarn run prisma:generate
 ```
 
 5. Run the Apollo server
 
 ```
-npm start
+yarn start
 ```
 
 The Apollo server is now running on `http://localhost:4000`.
